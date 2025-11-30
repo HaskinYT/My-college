@@ -1,0 +1,25 @@
+body {
+    background-color: aqua;
+}
+.block {
+    background-color: white;
+    width: 500px;
+    text-align: center;
+    margin-left: 670px;
+    margin-top: 400px;
+    height: 150px;
+    border-radius: 25px;
+    position: fixed;
+}
+.knopka {
+    background: linear-gradient(to right bottom,rgb(192, 246, 255), lightgrey);
+    outline: none;
+    border: none;    
+    border-radius: 25px;
+    margin-bottom: 20px;
+    transition: all 0s ease-in 0s;
+}
+.knopka:hover {
+    background-color: #111;
+    color: red;
+}
